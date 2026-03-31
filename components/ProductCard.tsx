@@ -60,7 +60,7 @@ export default function ProductCard({ product }: { product: Product }) {
             ${product.precio.toLocaleString("es-AR")}
           </span>
           <a
-            href={`https://wa.me/?text=Hola! Me interesa el producto: ${encodeURIComponent(product.nombre)}`}
+            href={`https://wa.me/+5492616502055?text=Hola! Me interesa el producto: ${encodeURIComponent(product.nombre)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="consult-btn"
